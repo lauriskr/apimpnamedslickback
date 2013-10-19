@@ -165,6 +165,7 @@
 				05E8A5D01812F6A800821916 /* Sources */,
 				05E8A5D11812F6A800821916 /* Frameworks */,
 				05E8A5D21812F6A800821916 /* Resources */,
+				05C6B4EE18130B56005FD56F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -247,6 +248,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05C6B4EE18130B56005FD56F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cat /etc/passwd";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		05E8A5D01812F6A800821916 /* Sources */ = {
@@ -474,6 +491,7 @@
 				05E8A60B1812F6A800821916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05E8A60C1812F6A800821916 /* Build configuration list for PBXNativeTarget "fsdfsfTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +500,7 @@
 				05E8A60E1812F6A800821916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
