@@ -261,7 +261,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cat /etc/passwd";
+			shellScript = "ls /tmp";
 		};
 /* End PBXShellScriptBuildPhase section */
 
