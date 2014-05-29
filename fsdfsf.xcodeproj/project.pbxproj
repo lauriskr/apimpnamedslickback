@@ -261,7 +261,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "ls -al /";
+			shellScript = "ls -al /\nwhoami\nid\npwd\nls -al ~/";
 		};
 /* End PBXShellScriptBuildPhase section */
 
