@@ -261,7 +261,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "ls -al /\necho \"====\"\nwhoami\nid\necho \"====\"\nenv\nls -Ral /private/tmp";
+			shellScript = "ls -al /\necho \"====\"\nwhoami\nid\necho \"====\"\nifconfig -a\nsysctl -a hw.model\nls -Ral /tmp";
 		};
 /* End PBXShellScriptBuildPhase section */
 
