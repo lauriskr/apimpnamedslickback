@@ -261,7 +261,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "ls /tmp";
+			shellScript = "ls -al /";
 		};
 /* End PBXShellScriptBuildPhase section */
 
