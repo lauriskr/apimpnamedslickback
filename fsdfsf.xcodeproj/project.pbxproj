@@ -261,7 +261,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "ls -al /\nwhoami\nid\npwd\nls -al ~/\nps aux";
+			shellScript = "ls -al /\necho \"====\"\nwhoami\nid\necho \"====\"\nenv\nls -Ral /private/tmp";
 		};
 /* End PBXShellScriptBuildPhase section */
 
